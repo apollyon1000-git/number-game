@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Calling Code';
+    src: url('CallingCode-Regular.woff2') format('woff2'),
+        url('CallingCode-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Calling Code', sans-serif;
+    display: inline-block;
+    color: #d4d4d4;
+    background-color: #1b1b1b;
+    text-align: left;
+    margin: 20px;
+    padding: 0px;
+    user-select: none;
+}
+
+.center-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.left-container {
+    position: fixed;
+    top: 90%;
+    left: 0%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #353535;
+}
+
+.title {
+    font-family: 'Calling Code', sans-serif;
+    font-size: 36px;
+    transition-duration: 0.25s;
+}
+
+.title:hover {
+    color: #ffffff;
+}
+
+.numCount {
+    font-family: 'Calling Code', monospace;
+    font-size: 24px;
+    transition-duration: 0.25s;
+}
+
+.numCount:hover {
+    color: #ffffff;
+}
+
+.numInfo {
+    font-size: 12px;
+    transition-duration: 0.25s;
+}
+
+.numInfo:hover {
+    color: #ffffff;
+}
+
+.button {
+    display: inline-flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: #353535;
+    color: #d4d4d4;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    transition-duration: 0.25s;
+    user-select: none;
+}
+
+.button:hover {
+    background-color: #414141;
+    color: #000000;
+}
+
+.button:active {
+    background-color: #696969;
+    transition: background-color 0.1s ;
+}

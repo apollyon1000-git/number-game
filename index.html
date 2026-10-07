@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Number Game</title>
+</head>
+<body>
+
+    <h1 class="title">Number Game</h1>
+
+    <h2 class="numCount">Number: <span id="number">0</span></h2>
+    <h3 class="numInfo">Number/Click: <span id="numberIncrease">1</span></h3>
+    <h3 class="numInfo">Number/Second: <span id="numberPerSecond">0</span></h3>
+    <h3 class="numInfo">Number Mult: <span id="numberMultiplier">1.0</span></h3>
+
+    <div class="button center-container" onclick="increaseValue()"></div>
+
+    <div class="left-container">Shop
+        <div class="shop-item" onclick="buyUpgrade(1)">Click Number+ // Cost: <span id="cost-1">10</span></div>
+        <div class="shop-item" onclick="buyUpgrade(2)">Passive Number+ // Cost: <span id="cost-2">50</span></div>
+        <div class="shop-item" onclick="buyUpgrade(3)">Number Multiplier+ // Cost: <span id="cost-3">100</span></div>
+    </div>
+
+</body>
+</html>
